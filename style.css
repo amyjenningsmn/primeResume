@@ -4,6 +4,11 @@ body {
 	padding-bottom: 40px;
 }
 
+main {
+	width: 75%;
+	margin: auto;
+}
+
 h1 {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
@@ -22,7 +27,6 @@ h3 {
 	font-size:2.5em;
 }
 
-
 p {
 	font-size: 2em;
 }
@@ -31,50 +35,75 @@ li {
 	font-size: 1.5em;
 }
 
-.jumbotron {
+header {
     background-color: #D89A9E;
     color: #FFFFFF;
+    height: 250px;
+    border-radius: 6px;
 }
-.jumbotron a {
+
+header a {
 	color: inherit;
 }
+
+header h1 {
+	font-size: 4em;
+	padding: 60px 0 0 50px;
+}
+
+header p {
+	font-size: 1.5em;
+	padding-left: 50px;
+}
+
+.banner {
+	width: 60%;
+	float: left;
+}
+
 .me {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 30%;
 	border-radius: 50%;
 }
 
+.goals {
+	width: 40%;
+	float: left;
+}
+
+.skills {
+	width: 40%;
+	float: right;
+}
+
 .examples {
+	clear: left;
 	background-color: #AEB4A9;
 	text-align: center;
+	margin-top: 500px;
 	padding-top: 40px;
 	padding-bottom: 50px;
-}
+	border-radius: 6px;
+} 
 
 .examples h3 {
 	color: #FFFFFF;
 }
 
-.git img{
-	margin-top: 35px;
-}
-.feb {
+.site {
+	margin-left: 100px;
+	margin-right: 100px;
 	background-color: #D89A9E;
-	padding-top:30px;
+	padding-top: 30px;
 	padding-bottom: 30px;
-}
-
-.git {
-	background-color: #D89A9E;
-	padding-top:30px;
-	padding-bottom: 30px;
+	border-radius: 6px;
 }
 
 .affiliations {
 	text-align: center;
-	padding-bottom: 30px;
+	padding: 10px 0 20px 0;
 }
 
 .affiliations p {
@@ -83,10 +112,7 @@ li {
 
 .work-exp {
 	background-color: #D89A9E;
-	padding-top: 15px;
-	padding-bottom: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	border-radius: 6px;
 }
 
 .work-exp h2 {
@@ -95,6 +121,53 @@ li {
 }
 .work-exp li {
 	font-size: 1.2em;
+}
+
+.j-one {
+	background-color: #D89A9E ;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 50%;
+	height: 500px;
+	float: left;
+	border-top-left-radius: 6px;
+}
+
+.j-two {
+	background-color: #AEB4A9;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 50%;
+	height: 500px;
+	float: right;
+	border-top-right-radius: 6px;
+}
+
+.j-three {
+	background-color: #AEB4A9;
+	box-sizing: border-box;
+	padding: 20px 20px 94px 20px;
+	width: 50%;
+	height: 500px;
+	clear: both;
+	float: left;
+	border-bottom-left-radius: 6px;
+}
+
+.j-four {
+	background-color: #D89A9E;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 50%;
+	height: 500px;
+	float: right;
+	border-bottom-right-radius: 6px;
+	
+}
+
+.volunteer {
+	clear: both;
+	padding: 30px 0 50px 0;
 }
 
 .volunteer h2 {
@@ -110,18 +183,32 @@ li {
 .references {
 	background-color: #AEB4A9;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	padding: 15px;
+	border-radius: 6px;
 }
+
 .references p {
 	font-size: 1.2em;
 }
 
+.ref1 {
+	background-color: #D89A9E;
+	box-sizing: border-box;
+	width: 50%;
+	height: 350px;
+	clear: none;
+	float: left;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 
-
-
-
-
-
-
+}
+.ref2 {
+	background-color: #D89A9E;
+	box-sizing: border-box;
+	width: 50%;
+	height: 350px;
+	float: right;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
 
